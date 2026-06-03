@@ -43,7 +43,7 @@
     "title": "Entrees",
     "items": [
       {
-        "name": "Teres Major Steak",
+        "name": "Teres Major Steak*",
         "price": "$38",
         "description": "Pan-Roasted Steak, Fingerling Potatoes, Baby Broccoli, Bordelaise Sauce"
       },
@@ -63,7 +63,7 @@
         "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, or Salad"
       },
       {
-        "name": "Trout Almondine",
+        "name": "Trout Almondine*",
         "price": "$31",
         "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
       },
