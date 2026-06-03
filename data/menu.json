@@ -23,7 +23,7 @@
         "description": "Bibb Lettuce, Fine Herbs, Crispy Fried Onions, Radishes, House-Made Buttermilk Ranch Dressing"
       },
       {
-        "name": "Caesar Salad",
+        "name": "Caesar Salad*",
         "price": "$10",
         "description": "Romaine Lettuce, Sourdough Croutons, Parmesan Cheese, House-Made Dressing"
       },
@@ -68,7 +68,7 @@
         "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
       },
       {
-        "name": "Skuna Bay Salmon",
+        "name": "Skuna Bay Salmon*",
         "price": "$34",
         "description": "Pan-Seared Salmon, Asparagus, Mushrooms, Pearl Onions, Snap Peas, Radish Salad, Asparagus Broth"
       },
