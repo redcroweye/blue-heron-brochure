@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Starters & Salads",
+    "subtitle": "A Glimpse of our Seasonal Offerings",
+    "items": [
+      {
+        "name": "Steak Tartar*",
+        "price": "$19",
+        "description": "Diced Teres Major, Cornichons, Capers, Shallots, Tarragon, Chives, Sourdough Bread"
+      },
+      {
+        "name": "Cheese Plate",
+        "price": "$20",
+        "description": "Marieke Gouda, Penta Bleu, Humboldt Fog, Fresh Fruit, Almonds, Toast Points"
+      },
+      {
+        "name": "Crab Beignets",
+        "price": "$20",
+        "description": "Lump Crab, Black Pepper Jam, Apple, Arugula"
+      },
+      {
+        "name": "House Salad",
+        "price": "$12",
+        "description": "Bibb Lettuce, Fine Herbs, Crispy Fried Onions, Radishes, House-Made Buttermilk Ranch Dressing"
+      },
+      {
+        "name": "Caesar Salad",
+        "price": "$10",
+        "description": "Romaine Lettuce, Sourdough Croutons, Parmesan Cheese, House-Made Dressing"
+      },
+      {
+        "name": "Sweet Pea Soup",
+        "price": "$10/bowl - $7/cup",
+        "description": "Pea Purée, Diced Carrots, Sautéed Leeks, Parmesan Croutons"
+      },
+      {
+        "name": "Beet Salad",
+        "price": "$14",
+        "description": "Roasted Beets, Goat Cheese Ricotta, Wasabi-Candied Pistachios, Red Wine Vinaigrette"
+      }
+    ]
+  },
+  {
+    "title": "Entrees",
+    "subtitle": "Our Seasonal Main Courses",
+    "items": [
+      {
+        "name": "Teres Major Steak",
+        "price": "$38",
+        "description": "Pan-Roasted Steak, Fingerling Potatoes, Baby Broccoli, Bordelaise Sauce"
+      },
+      {
+        "name": "Pork Shank",
+        "price": "$32",
+        "description": "Braised Bone-In Pork Shank, Garlic Mashed Potatoes, Roasted Beets, Spiced Jus"
+      },
+      {
+        "name": "Lakeview Colony Chicken",
+        "price": "$28",
+        "description": "Roasted Airline Chicken Breast, Baby Broccoli-Mushroom Risotto, Pistachio Pesto"
+      },
+      {
+        "name": "Fish ‘n’ Chips",
+        "price": "$28",
+        "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, or Salad"
+      },
+      {
+        "name": "Trout Almondine",
+        "price": "$31",
+        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
+      },
+      {
+        "name": "Skuna Bay Salmon",
+        "price": "$34",
+        "description": "Pan-Seared Salmon, Asparagus, Mushrooms, Pearl Onions, Snap Peas, Radish Salad, Asparagus Broth"
+      },
+      {
+        "name": "Spring Pea Gnocchi",
+        "price": "$21",
+        "description": "House-Made Gnocchi, Sweet Pea Puree, Sugar Snap Peas, Charred Peas, Pistachio Pesto, Créme Fraîche, Microgreens"
+      }
+    ]
+  },
+  {
+    "title": "The Sides",
+    "subtitle": "Elegant add-ons",
+    "items": [
+      {
+        "name": "House-Made Chips",
+        "price": "$5",
+        "description": "Non-Seed Oil, House Seasoning"
+      },
+      {
+        "name": "House-Made Garlic Mashed Potatoes",
+        "price": "$5",
+        "description": "Créme Fraîche, Chives"
+      },
+      {
+        "name": "Fries",
+        "price": "$5",
+        "description": "Non-Seed Oil, House Seasoning"
+      },
+      {
+        "name": "Risotto",
+        "price": "$9",
+        "description": "Baby Broccoli, Mushrooms, Pistachio Pesto"
+      },
+      {
+        "name": "Baby Broccoli",
+        "price": "$7",
+        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
+      }
+    ]
+  },
+  {
+    "title": "Desserts",
+    "subtitle": "Or... starters if you want.",
+    "items": [
+      {
+        "name": "Cheesecake",
+        "price": "$10",
+        "description": "New York Style, Orange Supremes, Orange Marmalade"
+      },
+      {
+        "name": "Chocolate Tart",
+        "price": "$12",
+        "description": "Chocolate Ganache, French Vanilla Ice Cream, Oreo Cookie Crust, Oreo Cookie Crumble"
+      },
+      {
+        "name": "Lemon Tart",
+        "price": "$10",
+        "description": "Lemon Curd, Meringue, Sable Dough, Raspberry Sauce"
+      }
+    ]
+  }
+]

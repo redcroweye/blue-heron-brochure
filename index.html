@@ -100,13 +100,15 @@
         .logo-link {
             display: flex;
             align-items: center;
-            height: 45px;
+            width: min(60vw, 300px);
+            height: auto;
         }
 
         .nav-logo-svg {
-            height: 100%;       
-            width: auto;        
             display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
         }
 
         .nav-logo-svg path, .nav-logo-svg .st0 {
@@ -180,19 +182,24 @@
 
         /* Responsive scaling constraints for centering graphic logo */
         .hero-logo-container {
-            height: 140px;
-            width: auto;
-            max-width: 90vw;
+            width: min(86vw, 620px);
+            height: auto;
             margin-bottom: 20px;
             display: block;
         }
 
-        .hero-logo-container svg {
-            height: 100%;
-            width: auto;
+        .hero-logo-container svg,
+        .hero-logo-svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
         }
 
-        .hero-logo-container path, .hero-logo-container .st0 {
+        .hero-logo-container path,
+        .hero-logo-container .st0,
+        .hero-logo-svg path,
+        .hero-logo-svg .st0 {
             fill: var(--text-light) !important;
         }
 
@@ -266,6 +273,13 @@
         .menu-item-dots { flex-grow: 1; border-bottom: 2px dotted rgba(43, 88, 118, 0.2); margin: 0 15px; }
         .menu-item-price { font-size: 1.1rem; font-weight: 500; color: var(--slate-blue); }
         .menu-item-desc { font-size: 0.9rem; color: #555; font-weight: 300; }
+        .menu-load-error {
+            font-size: 0.95rem;
+            color: var(--slate-blue);
+            font-weight: 400;
+            max-width: 680px;
+            margin: 0 auto;
+        }
 
         /* --- MODERN EDITORIAL SOCIAL HUB --- */
         .social-hub {
@@ -460,7 +474,8 @@
         <div class="hero-overlay"></div>
 
         <div class="hero-content">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" class="nav-logo-svg" height="150" width="flex">
+            <div class="hero-logo-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4369.2 1002.9" class="hero-logo-svg" aria-label="The Blue Heron">
                 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 4369.2 1002.9">
                     <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
                     <defs>
@@ -528,233 +543,17 @@
         </div>
     </section>
 
-    <!-- STARTERS & SALADS MENU -->
+    <!-- MENU: loaded from data/menu.json -->
     <section id="menu" class="section-padding menu-preview">
         <div class="container text-center">
             <div class="menu-header">
-                <h2>Starters & Salads</h2>
-                <div class="menu-subtitle">A Glimpse of our Seasonal Offerings</div>
+                <h2>Menu</h2>
+                <div class="menu-subtitle">Seasonal offerings, updated regularly</div>
             </div>
-            
-            <div class="menu-grid" style="text-align: left;">
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Steak Tartar*</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$19</span>
-                    </div>
-                    <span class="menu-item-desc">Diced Teres Major, Cornichons, Capers, Shallots, Tarragon, Chives, Sourdough Bread</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Cheese Plate</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$20</span>
-                    </div>
-                    <span class="menu-item-desc">Marieke Gouda, Penta Bleu, Humboldt Fog, Fresh Fruit, Almonds, Toast Points</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Crab Beignets</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$20</span>
-                    </div>
-                    <span class="menu-item-desc">Lump Crab, Black Pepper Jam, Apple, Arugula</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">House Salad</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$12</span>
-                    </div>
-                    <span class="menu-item-desc">Bibb Lettuce, Fine Herbs, Crispy Fried Onions, Radishes, House-Made Buttermilk Ranch Dressing</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Caesar Salad</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$10</span>
-                    </div>
-                    <span class="menu-item-desc">Romaine Lettuce, Sourdough Croutons, Parmesan Cheese, House-Made Dressing</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Sweet Pea Soup</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$10/bowl - $7/cup</span>
-                    </div>
-                    <span class="menu-item-desc">Pea Purée, Diced Carrots, Sautéed Leeks, Parmesan Croutons</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Beet Salad</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$14</span>
-                    </div>
-                    <span class="menu-item-desc">Roasted Beets, Goat Cheese Ricotta, Wasabi-Candied Pistachios, Red Wine Vinaigrette</span>
-                </div>
+            <div id="menu-sections">
+                <p class="menu-load-error">Loading menu...</p>
             </div>
-        </div>
-    </section>
-
-    <!-- ENTREES MENU -->
-    <section class="section-padding menu-preview" style="border-top: none; padding-top: 0;">
-        <div class="container text-center">
-            <div class="menu-header">
-                <h2>Entrees</h2>
-                <div class="menu-subtitle">Our Seasonal Main Courses</div>
-            </div>
-            
-            <div class="menu-grid" style="text-align: left;">
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Teres Major Steak</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$38</span>
-                    </div>
-                    <span class="menu-item-desc">Pan-Roasted Steak, Fingerling Potatoes, Baby Broccoli, Bordelaise Sauce</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Pork Shank</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$32</span>
-                    </div>
-                    <span class="menu-item-desc">Braised Bone-In Pork Shank, Garlic Mashed Potatoes, Roasted Beets, Spiced Jus</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Lakeview Colony Chicken</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$28</span>
-                    </div>
-                    <span class="menu-item-desc">Roasted Airline Chicken Breast, Baby Broccoli-Mushroom Risotto, Pistachio Pesto</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Fish ‘n’ Chips</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$28</span>
-                    </div>
-                    <span class="menu-item-desc">Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, or Salad</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Trout Almondine</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$31</span>
-                    </div>
-                    <span class="menu-item-desc">Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Skuna Bay Salmon</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$34</span>
-                    </div>
-                    <span class="menu-item-desc">Pan-Seared Salmon, Asparagus, Mushrooms, Pearl Onions, Snap Peas, Radish Salad, Asparagus Broth</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Spring Pea Gnocchi</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$21</span>
-                    </div>
-                    <span class="menu-item-desc">House-Made Gnocchi, Sweet Pea Puree, Sugar Snap Peas, Charred Peas, Pistachio Pesto, Créme Fraîche, Microgreens</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SIDES MENU -->
-    <section class="section-padding menu-preview" style="border-top: none; padding-top: 0;">
-        <div class="container text-center">
-            <div class="menu-header">
-                <h2>The Sides</h2>
-                <div class="menu-subtitle">Elegant add-ons</div>
-            </div>
-            
-            <div class="menu-grid" style="text-align: left;">
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">House-Made Chips</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$5</span>
-                    </div>
-                    <span class="menu-item-desc">Non-Seed Oil, House Seasoning</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">House-Made Garlic Mashed Potatoes</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$5</span>
-                    </div>
-                    <span class="menu-item-desc">Créme Fraîche, Chives</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Fries</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$5</span>
-                    </div>
-                    <span class="menu-item-desc">Non-Seed Oil, House Seasoning</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Risotto</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$9</span>
-                    </div>
-                    <span class="menu-item-desc">Baby Broccoli, Mushrooms, Pistachio Pesto</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Baby Broccoli</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$7</span>
-                    </div>
-                    <span class="menu-item-desc">Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- DESSERTS MENU -->
-    <section class="section-padding menu-preview" style="border-top: none; padding-top: 0;">
-        <div class="container text-center">
-            <div class="menu-header">
-                <h2>Desserts</h2>
-                <div class="menu-subtitle">Or... starters if you want.</div>
-            </div>
-            
-            <div class="menu-grid" style="text-align: left;">
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Cheesecake</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$10</span>
-                    </div>
-                    <span class="menu-item-desc">New York Style, Orange Supremes, Orange Marmalade</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Chocolate Tart</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$12</span>
-                    </div>
-                    <span class="menu-item-desc">Chocolate Ganache, French Vanilla Ice Cream, Oreo Cookie Crust, Oreo Cookie Crumble</span>
-                </div>
-                <div class="menu-item">
-                    <div class="menu-item-row">
-                        <span class="menu-item-title">Lemon Tart</span>
-                        <span class="menu-item-dots"></span>
-                        <span class="menu-item-price">$10</span>
-                    </div>
-                    <span class="menu-item-desc">Lemon Curd, Meringue, Sable Dough, Raspberry Sauce</span>
-                </div>
-            </div>
-
-            <p style="font-weight: 400; color: var(--slate-blue); font-size: 0.95rem; margin-top: 40px;">Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness</p>
+            <p style="font-weight: 400; color: var(--slate-blue); font-size: 0.95rem; margin-top: 40px;">Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness.</p>
         </div>
     </section>
 
@@ -829,6 +628,62 @@
             <div>Locally Owned & Operated in the Black Hills</div>
         </div>
     </footer>
+
+    <script>
+        async function loadMenu() {
+            const menuContainer = document.getElementById('menu-sections');
+
+            try {
+                const response = await fetch('data/menu.json', { cache: 'no-store' });
+                if (!response.ok) throw new Error('Menu file could not be loaded.');
+
+                const menuSections = await response.json();
+                menuContainer.innerHTML = '';
+
+                menuSections.forEach((section, index) => {
+                    const sectionEl = document.createElement('section');
+                    sectionEl.className = 'section-padding menu-preview';
+                    sectionEl.style.borderTop = index === 0 ? 'none' : '1px solid rgba(0,65,105,0.1)';
+                    sectionEl.style.paddingTop = index === 0 ? '0' : '70px';
+                    sectionEl.style.paddingBottom = '0';
+
+                    const heading = document.createElement('div');
+                    heading.className = 'menu-header';
+                    heading.innerHTML = `
+                        <h2>${section.title}</h2>
+                        <div class="menu-subtitle">${section.subtitle || ''}</div>
+                    `;
+
+                    const grid = document.createElement('div');
+                    grid.className = 'menu-grid';
+                    grid.style.textAlign = 'left';
+
+                    section.items.forEach((item) => {
+                        const itemEl = document.createElement('div');
+                        itemEl.className = 'menu-item';
+                        itemEl.innerHTML = `
+                            <div class="menu-item-row">
+                                <span class="menu-item-title">${item.name}</span>
+                                <span class="menu-item-dots"></span>
+                                <span class="menu-item-price">${item.price}</span>
+                            </div>
+                            <span class="menu-item-desc">${item.description}</span>
+                        `;
+                        grid.appendChild(itemEl);
+                    });
+
+                    sectionEl.appendChild(heading);
+                    sectionEl.appendChild(grid);
+                    menuContainer.appendChild(sectionEl);
+                });
+            } catch (error) {
+                menuContainer.innerHTML = '<p class="menu-load-error">The online menu is being updated. Please call us for the current menu.</p>';
+                console.error(error);
+            }
+        }
+
+        loadMenu();
+    </script>
 
 </body>
 </html>
