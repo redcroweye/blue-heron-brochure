@@ -1,7 +1,6 @@
 [
   {
     "title": "Starters & Salads",
-    "subtitle": "A Glimpse of our Seasonal Offerings",
     "items": [
       {
         "name": "Steak Tartar*",
@@ -42,7 +41,6 @@
   },
   {
     "title": "Entrees",
-    "subtitle": "Our Seasonal Main Courses",
     "items": [
       {
         "name": "Teres Major Steak",
@@ -83,7 +81,6 @@
   },
   {
     "title": "The Sides",
-    "subtitle": "Elegant add-ons",
     "items": [
       {
         "name": "House-Made Chips",
@@ -114,7 +111,6 @@
   },
   {
     "title": "Desserts",
-    "subtitle": "Or... starters if you want.",
     "items": [
       {
         "name": "Cheesecake",
