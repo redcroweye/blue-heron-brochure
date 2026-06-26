@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Primary SEO -->
-<title>The Blue Heron | Fine Dining in Rapid City, SD</title>
+    <title>The Blue Heron | Fine Dining Restaurant in Rapid City, South Dakota</title>
 
 <meta name="description"
       content="The Blue Heron offers chef-driven American cuisine, curated wines, handcrafted cocktails, and elevated dining in Rapid City, South Dakota. Experience the flavors of the Black Hills in an unforgettable setting.">
@@ -605,7 +605,7 @@
                 <p>between RC Hardware and Safeway</p>
             </div>
             <div>
-                <a href="https://maps.google.com/?q=740+Mountain+View+Rd+Rapid+City+SD+57702" target="_blank" class="btn btn-light">Get Directions</a>
+                <a href="https://maps.app.goo.gl/LLhxDsUBCK3JthCr7" target="_blank" class="btn btn-light">Get Directions</a>
             </div>
         </div>
     </section>
@@ -623,6 +623,10 @@
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczPMvAg3yaqKZ3BnuODq_mTzTIcdN0QUQqQ4ZmEvEYON4iHlUxigU1CcFFfr5nKbh_39kO_uVp6rnJCtsCYGxj_Uct1XpY0UIjN4Hr7Nf_69KNBOQQLllDjmUYv0xlTn2OkulmNWdZ773xsFqoSoBlOP0w=w1963-h1478-s-no-gm?authuser=0" alt="Plated Fine Dining Menu Item">
             </div>
         </div>
+    </section>
+
+    <section id="special-menu-section" class="menu-section">
+        <div id="special-menu"></div>
     </section>
 
     <!-- MENU: loaded from data/menu.json -->
@@ -761,6 +765,67 @@
         }
 
         loadMenu();
+    </script>
+
+<script>
+    async function loadSpecialMenu() {
+        try {
+            const response = await fetch('/data/menu.json');
+            const data = await response.json();
+    
+            const container = document.getElementById('special-menu');
+    
+            if (!data.specialMenus || data.specialMenus.length === 0) {
+                return;
+            }
+    
+            const menu = data.specialMenus[0];
+    
+            let html = `
+                <div class="special-menu-card">
+                    <h2>${menu.title}</h2>
+                    <h3>${menu.description}</h3>
+    
+                    <p>${menu.details.join('<br>')}</p>
+    
+                    <h3>Entrées</h3>
+            `;
+    
+            menu.entrees.forEach(item => {
+                html += `
+                    <div class="menu-item">
+                        <h4>${item.name}</h4>
+                        <p>${item.description}</p>
+    
+                        <small>
+                            Wine: ${item.pairings.wine}<br>
+                            Beer: ${item.pairings.beer}
+                        </small>
+                    </div>
+                `;
+            });
+    
+            html += `<h3>Desserts</h3>`;
+    
+            menu.desserts.forEach(item => {
+                html += `
+                    <div class="menu-item">
+                        <h4>${item.name}</h4>
+                        <p>${item.description}</p>
+                    </div>
+                `;
+            });
+    
+            html += `</div>`;
+    
+            container.innerHTML = html;
+        }
+        catch (error) {
+            console.error('Unable to load special menu:', error);
+        }
+    }
+    
+    loadSpecialMenu();
     </script>
 
 </body>
