@@ -3,7 +3,7 @@
     "title": "Starters & Salads",
     "items": [
       {
-        "name": "Steak Tartar*",
+        "name": "Steak Tartare*",
         "price": "$19",
         "description": "Diced Teres Major, Cornichons, Capers, Shallots, Tarragon, Chives, Sourdough Bread"
       },
@@ -14,7 +14,7 @@
       },
       {
         "name": "Crab Beignets",
-        "price": "$20",
+        "price": "$21",
         "description": "Lump Crab, Black Pepper Jam, Apple, Arugula"
       },
       {
@@ -23,14 +23,14 @@
         "description": "Bibb Lettuce, Fine Herbs, Crispy Fried Onions, Radishes, House-Made Buttermilk Ranch Dressing"
       },
       {
-        "name": "Caesar Salad*",
+        "name": "Panzanella Salad",
         "price": "$10",
-        "description": "Romaine Lettuce, Sourdough Croutons, Parmesan Cheese, House-Made Dressing"
+        "description": "House-Made Focaccia Croutons, Tomatoes, Cucumbers, Red Onions, Basil, Mozzarella, Sweet Corn"
       },
       {
-        "name": "Sweet Pea Soup",
-        "price": "$10/bowl - $7/cup",
-        "description": "Pea Purée, Diced Carrots, Sautéed Leeks, Parmesan Croutons"
+        "name": "Watermelon Gazpacho",
+        "price": "$9/bowl - $6/cup",
+        "description": "Watermelon, Cucumber, Sweet Red Pepper, Tomato"
       },
       {
         "name": "Peach Salad",
@@ -44,28 +44,23 @@
     "items": [
       {
         "name": "Teres Major Steak*",
-        "price": "$38",
-        "description": "Pan-Roasted Steak, Fingerling Potatoes, Baby Broccoli, Bordelaise Sauce"
+        "price": "$41",
+        "description": "Seared Steak, Garlic Mashed Potatoes, Baby Broccoli, Bordelaise Sauce"
       },
       {
-        "name": "Pork Shank",
+        "name": "Pork Loin",
         "price": "$32",
-        "description": "Braised Bone-In Pork Shank, Garlic Mashed Potatoes, Roasted Beets, Spiced Jus"
+        "description": "Pan-Roasted Pork Loin, Cheddar Cheese Grits, Sweet Corn, Braised Greens,Apple Slaw"
       },
       {
         "name": "Lakeview Colony Chicken",
-        "price": "$28",
+        "price": "$34",
         "description": "Roasted Airline Chicken Breast, Baby Broccoli-Mushroom Risotto, Pistachio Pesto"
       },
       {
         "name": "Fish ‘n’ Chips",
         "price": "$28",
         "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, or Salad"
-      },
-      {
-        "name": "Trout Almondine*",
-        "price": "$31",
-        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
       },
       {
         "name": "Skuna Bay Salmon*",
@@ -97,15 +92,16 @@
         "price": "$5",
         "description": "Non-Seed Oil, House Seasoning"
       },
+      ,
       {
-        "name": "Risotto",
-        "price": "$9",
-        "description": "Baby Broccoli, Mushrooms, Pistachio Pesto"
-      },
+        "name": "Grits",
+        "price": "$6",
+        "description": "Cheddar Cheese, Sweet Corn"
+      }
       {
         "name": "Baby Broccoli",
         "price": "$7",
-        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
+        "description": "You Guessed it, Baby Broccoli"
       }
     ]
   },
