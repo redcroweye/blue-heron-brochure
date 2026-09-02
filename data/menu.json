@@ -1,131 +1,114 @@
 [
   {
     "title": "Starters & Salads",
+    "subtitle": "",
     "items": [
       {
-        "name": "Steak Tartar*",
+        "name": "Steak Tartare (aka Tiger Meat)*",
         "price": "$19",
         "description": "Diced Teres Major, Cornichons, Capers, Shallots, Tarragon, Chives, Sourdough Bread"
       },
       {
-        "name": "Cheese Plate",
+        "name": "House Salad (v)",
+        "price": "$12",
+        "description": "Bibb Lettuce, Crispy Fried Onions, Radishes, House-Made Fine Herb-Buttermilk Ranch Dressing"
+      },
+      {
+        "name": "Cheese Plate (v)",
         "price": "$20",
-        "description": "Marieke Gouda, Penta Bleu, Humboldt Fog, Fresh Fruit, Almonds, Toast Points"
+        "description": "Marieke Gouda, Penta Bleu, Humboldt Fog, Fresh Fruit, Almonds, House-Made Focaccia"
+      },
+      {
+        "name": "Panzanella Bread Salad",
+        "price": "$12",
+        "description": "House-Made Focaccia Croutons, Tomato, Cucumber, Red Onion, Basil, Mozzarella, Sweet Corn"
       },
       {
         "name": "Crab Beignets",
-        "price": "$20",
+        "price": "$21",
         "description": "Lump Crab, Black Pepper Jam, Apple, Arugula"
       },
       {
-        "name": "House Salad",
-        "price": "$12",
-        "description": "Bibb Lettuce, Fine Herbs, Crispy Fried Onions, Radishes, House-Made Buttermilk Ranch Dressing"
+        "name": "Watermelon Gazpacho (v)",
+        "price": "$9 bowl / $6 cup",
+        "description": "Watermelon, Cucumber, Red Pepper, Tomato"
       },
       {
-        "name": "Caesar Salad*",
-        "price": "$10",
-        "description": "Romaine Lettuce, Sourdough Croutons, Parmesan Cheese, House-Made Dressing"
-      },
-      {
-        "name": "Sweet Pea Soup",
-        "price": "$10/bowl - $7/cup",
-        "description": "Pea Purée, Diced Carrots, Sautéed Leeks, Parmesan Croutons"
-      },
-      {
-        "name": "Peach Salad",
+        "name": "Peach Salad (v)",
         "price": "$16",
-        "description": "Fresh Peaches, Sweet & Sour Syrup, Goat Cheese, Wasabi-Candied Pistachios, Micro Arugula, Basil Oil"
+        "description": "Fresh Peaches, Red Wine Gastrique, Goat Cheese, Wasabi-Candied Pistachios, Micro Arugula, Basil Oil"
       }
     ]
   },
   {
-    "title": "Entrees",
+    "title": "Entrées",
+    "subtitle": "",
     "items": [
       {
-        "name": "Teres Major Steak*",
-        "price": "$38",
-        "description": "Pan-Roasted Steak, Fingerling Potatoes, Baby Broccoli, Bordelaise Sauce"
+        "name": "Teres Major Steak",
+        "price": "$41",
+        "description": "Pan-Roasted Steak, Garlic Mashed Potatoes, Baby Broccoli, Bordelaise Sauce"
       },
       {
-        "name": "Pork Shank",
-        "price": "$32",
-        "description": "Braised Bone-In Pork Shank, Garlic Mashed Potatoes, Roasted Beets, Spiced Jus"
+        "name": "Pork Loin",
+        "price": "$25",
+        "description": "Pan-Roasted Pork Loin, Cheddar Cheese Grits, Sweet Corn, Braised Greens, Apple Slaw"
       },
       {
         "name": "Lakeview Colony Chicken",
-        "price": "$28",
-        "description": "Roasted Airline Chicken Breast, Baby Broccoli-Mushroom Risotto, Pistachio Pesto"
+        "price": "$34",
+        "description": "Roasted Half Chicken, Leek & Corn Bread Pudding, Cherry Mustard Sauce"
+      },
+      {
+        "name": "Skuna Bay Salmon*",
+        "price": "$38",
+        "description": "Cedar Creek Gardens Zucchini and Green Beans, Kale, Fennel, Warm Tomato Vinaigrette, Basil"
+      },
+      {
+        "name": "Bolognese",
+        "price": "$24",
+        "description": "Beef and Pork Ragù, Rigatoni Pasta, Tomato, Spinach, Oregano, Parmesan"
+      },
+      {
+        "name": "Spring Pea Gnocchi (v)",
+        "price": "$21",
+        "description": "House-Made Gnocchi, Sweet Pea Puree, Sugar Snap Peas, Charred Peas, Pistachio Pesto, Crème Fraîche, Microgreens"
       },
       {
         "name": "Fish ‘n’ Chips",
         "price": "$28",
-        "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, or Salad"
-      },
-      {
-        "name": "Trout Almondine*",
-        "price": "$31",
-        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
-      },
-      {
-        "name": "Skuna Bay Salmon*",
-        "price": "$34",
-        "description": "Pan-Seared Salmon, Asparagus, Mushrooms, Pearl Onions, Snap Peas, Radish Salad, Asparagus Broth"
-      },
-      {
-        "name": "Spring Pea Gnocchi",
-        "price": "$21",
-        "description": "House-Made Gnocchi, Sweet Pea Puree, Sugar Snap Peas, Charred Peas, Pistachio Pesto, Créme Fraîche, Microgreens"
+        "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, Salad (add $2)"
       }
     ]
   },
   {
-    "title": "The Sides",
+    "title": "Sides",
+    "subtitle": "",
     "items": [
       {
         "name": "House-Made Chips",
         "price": "$5",
-        "description": "Non-Seed Oil, House Seasoning"
+        "description": "House Salt & Vinegar Seasoning"
       },
       {
-        "name": "House-Made Garlic Mashed Potatoes",
+        "name": "Garlic Mashed Potatoes",
         "price": "$5",
-        "description": "Créme Fraîche, Chives"
+        "description": "Crème Fraîche, Chives"
       },
       {
         "name": "Fries",
         "price": "$5",
-        "description": "Non-Seed Oil, House Seasoning"
+        "description": "House Salt & Vinegar Seasoning"
       },
       {
-        "name": "Risotto",
-        "price": "$9",
-        "description": "Baby Broccoli, Mushrooms, Pistachio Pesto"
+        "name": "Grits",
+        "price": "$6",
+        "description": "Cheddar Cheese, Sweet Corn"
       },
       {
         "name": "Baby Broccoli",
         "price": "$7",
-        "description": "Pan-Seared Trout, Charred Asparagus, Onion Confit, Fingerling Potatoes, Brown Butter-Lemon Sauce"
-      }
-    ]
-  },
-  {
-    "title": "Desserts",
-    "items": [
-      {
-        "name": "Cheesecake",
-        "price": "$10",
-        "description": "New York Style, Orange Supremes, Orange Marmalade"
-      },
-      {
-        "name": "Chocolate Tart",
-        "price": "$12",
-        "description": "Chocolate Ganache, French Vanilla Ice Cream, Oreo Cookie Crust, Oreo Cookie Crumble"
-      },
-      {
-        "name": "Lemon Tart",
-        "price": "$10",
-        "description": "Lemon Curd, Meringue, Sable Dough, Raspberry Sauce"
+        "description": "Garlic, Chili, Lemon, Parmesan"
       }
     ]
   }
