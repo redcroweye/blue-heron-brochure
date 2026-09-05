@@ -78,6 +78,11 @@
         "name": "Fish ‘n’ Chips",
         "price": "$28",
         "description": "Tempura Battered Walleye, House-Made Tartar Sauce, House-Made Salt & Vinegar Chips, Fries, Salad (add $2)"
+      },      
+      {
+        "name": "Double Smash Burger",
+        "price": "$18",
+        "description": "Grilled Onions, American Cheese, Dill Pickels, Bib Lettuce, House-Made Burger Sauce, Choice of House-Made Salt & Vinigar Chips or Fries"
       }
     ]
   },
