@@ -25,13 +25,13 @@
       },
       {
         "name": "Crab Beignets",
-        "price": "$21",
+        "price": "$22",
         "description": "Lump Crab, Black Pepper Jam, Apple, Arugula"
       },
       {
-        "name": "Watermelon Gazpacho (v)",
-        "price": "$9 bowl / $6 cup",
-        "description": "Watermelon, Cucumber, Red Pepper, Tomato"
+        "name": "Butternut Squash Soup (v)",
+        "price": "$9 bowl / $5 cup",
+        "description": "Puréed Butternut Squash, Diced Butternut Squash, Spiced Crème fraîche, Pepitas, Chives "
       },
       {
         "name": "Peach Salad (v)",
@@ -46,7 +46,7 @@
     "items": [
       {
         "name": "Teres Major Steak",
-        "price": "$41",
+        "price": "$43",
         "description": "Pan-Roasted Steak, Garlic Mashed Potatoes, Baby Broccoli, Bordelaise Sauce"
       },
       {
@@ -70,9 +70,9 @@
         "description": "Beef and Pork Ragù, Rigatoni Pasta, Tomato, Spinach, Oregano, Parmesan"
       },
       {
-        "name": "Spring Pea Gnocchi (v)",
-        "price": "$21",
-        "description": "House-Made Gnocchi, Sweet Pea Puree, Sugar Snap Peas, Charred Peas, Pistachio Pesto, Crème Fraîche, Microgreens"
+        "name": "Fall Squash Gnocchi (v)",
+        "price": "$22",
+        "description": "House-Made Gnocchi, Butternut Squash-Ginger Purée, Roasted Butternut Squash, Roasted Mushrooms, Sage, Microgreens"
       },
       {
         "name": "Fish ‘n’ Chips",
@@ -97,7 +97,7 @@
       },
       {
         "name": "Garlic Mashed Potatoes",
-        "price": "$5",
+        "price": "$6",
         "description": "Crème Fraîche, Chives"
       },
       {
