@@ -50,12 +50,12 @@
         "description": "Pan-Roasted Steak, Garlic Mashed Potatoes, Baby Broccoli, Bordelaise Sauce"
       },
       {
-        "name": "Pork Loin",
-        "price": "$25",
-        "description": "Pan-Roasted Pork Loin, Cheddar Cheese Grits, Sweet Corn, Braised Greens, Apple Slaw"
+        "name": "Pork Shank",
+        "price": "$40",
+        "description": "Braised Pork Shank, Garlic Mashed Potatoes, SRoasted Beats, Spiced Jus"
       },
       {
-        "name": "Lakeview Colony Chicken",
+        "name": "Lakeview Chicken",
         "price": "$34",
         "description": "Roasted Half Chicken, Leek & Corn Bread Pudding, Cherry Mustard Sauce"
       },
