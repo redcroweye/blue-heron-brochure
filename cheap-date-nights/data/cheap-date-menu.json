@@ -1,0 +1,69 @@
+{
+  "title": "Cheap Date Night",
+  "subtitle": "Wednesday 9/30/26 & Thursday 10/1/26",
+  "price": "$50 for Two",
+  "description": "Each guest chooses an entrée with the paired beer or wine. If you prefer to skip the drinks and both choose the non-alcoholic option, enjoy one dessert to share instead.",
+  "sections": [
+    {
+      "title": "Entrées",
+      "subtitle": "Choose one per guest",
+      "items": [
+        {
+          "name": "Pan Roasted Pork Loin",
+          "price": "",
+          "description": "Mashed Sweet Potatoes, Roasted Brussels Sprouts, Apple Slaw, Spiced Jus",
+          "pairings": [
+            {
+              "label": "Wine",
+              "name": "A/V Pinot Noir 2023",
+              "description": "Alexander Valley"
+            },
+            {
+              "label": "Beer",
+              "name": "Grain Belt Premium",
+              "description": "The Friendly Beer · Minnesota · Nice!"
+            }
+          ]
+        },
+        {
+          "name": "Corn & Leek Risotto",
+          "price": "",
+          "description": "Arborio Rice, Corn, Leeks, Zucchini, Basil, Parmesan",
+          "pairings": [
+            {
+              "label": "Wine",
+              "name": "Château du Pont Sauvignon Blanc 2024",
+              "description": "France"
+            },
+            {
+              "label": "Beer",
+              "name": "Mich Ultra",
+              "description": "Yellowish · Low ABV Diet Bubble Water"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dessert",
+      "subtitle": "Available with the non-alcoholic option",
+      "items": [
+        {
+          "name": "Cheesecake",
+          "price": "",
+          "description": "New York Style, Orange Suprêmes, Orange Marmalade"
+        },
+        {
+          "name": "Chocolate Tart",
+          "price": "",
+          "description": "Chocolate Ganache, Oreo Cookie Crust, French Vanilla Ice Cream"
+        },
+        {
+          "name": "Lemon Tart",
+          "price": "",
+          "description": "Lemon Curd, Raspberry Sauce, Toasted Meringue, Sable Dough"
+        }
+      ]
+    }
+  ]
+}
