@@ -55,14 +55,19 @@
         "description": "Braised Pork Shank, Garlic Mashed Potatoes, Roasted Beats, Spiced Jus"
       },
       {
-        "name": "Lakeview Chicken",
+        "name": "Lakeview Colony Chicken",
         "price": "$34",
-        "description": "Roasted Half Chicken, Leek & Corn Bread Pudding, Cherry Mustard Sauce"
+        "description": "Roasted Half Chicken, Walnut-Sausage Stuffing, Green Beans, Lemon Rosemary Veloute"
+      },
+      {
+        "name": "Pan Roasted Pork Loin",
+        "price": "$25",
+        "description": "Mashed Sweet Potatoes, Roasted Brussel Sprouts, Apple Slaw, Spiced Jus"
       },
       {
         "name": "Skuna Bay Salmon*",
         "price": "$38",
-        "description": "Cedar Creek Gardens Zucchini and Green Beans, Kale, Fennel, Warm Tomato Vinaigrette, Basil"
+        "description": "Bacon and Tomato Braised Lentils, Fennel Salad, Parsley, Herb Oil"
       },
       {
         "name": "Bolognese",
@@ -106,9 +111,9 @@
         "description": "House Salt & Vinegar Seasoning"
       },
       {
-        "name": "Grits",
+        "name": "Mashed Sweet Potatoes",
         "price": "$6",
-        "description": "Cheddar Cheese, Sweet Corn"
+        "description": "Chives"
       },
       {
         "name": "Baby Broccoli",
